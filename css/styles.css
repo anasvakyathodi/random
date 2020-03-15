@@ -9,6 +9,9 @@ body{
   height: 100%;
   width:100%;
 }
+header{
+    background-color: #373737 !important;
+}
 
 a.navbar-brand{
   font-size: 4vh;
@@ -49,6 +52,7 @@ div label {
 }
 button.btn.btn-dark{
   font-size: 3vh;
+  background-color: #373737;
 }
 #text-input{
   height: 7vh;
