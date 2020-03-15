@@ -9,7 +9,13 @@ function ran_generator() {
       document.getElementById("content").innerHTML=result;
     }
 }
-function clr_all() {
-  document.getElementById("content").innerHTML=0;
-  document.getElementById("text-input").innerHTML.value="";
+function clr_all(){
+  var x = window.confirm("Thank You for using...!\nDo you want to continue ?");
+  if (x) {
+    document.getElementById("text-input").value="";
+    document.getElementById("content").innerHTML=0;
+  }
+  else {
+    window.close();
+  }
 }
