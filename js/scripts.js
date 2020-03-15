@@ -1,3 +1,12 @@
+var gn_button = document.querySelector('#gen_button');
+var cr_button = document.querySelector('#clr_button');
+gn_button.addEventListener('click',function() {
+  ran_generator();
+});
+cr_button.addEventListener('click',function() {
+  clr_all();
+});
+
 function ran_generator() {
     if ((document.getElementById("text-input").value) <= 0) {
       alert("Input a valid number");
