@@ -56,6 +56,8 @@ button.btn.btn-dark{
   margin-left: auto;
   margin-right: auto;
   font-size: 3vh;
+  border-radius: 30px;
+  text-align: center;
 }
 footer{
   position: static;
