@@ -28,17 +28,15 @@ div.row{
   /* padding-top: 5vh; */
 }
 #content{
-  font-size: 24vh;
+  font-size: 25vmin;
   font-weight: 700;
   padding: 1rem;
   color: #C0B283;
-
 }
 
 /* .form-read{
   padding: 20px;
 } */
-
 .btn{
   margin: 3vh 3vh 0 3vh;
 
@@ -62,6 +60,7 @@ button.btn.btn-dark{
   font-size: 3vh;
   border-radius: 30px;
   text-align: center;
+  overflow: hidden;
 }
 footer{
   position: static;

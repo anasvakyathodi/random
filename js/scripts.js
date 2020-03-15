@@ -3,6 +3,11 @@ function ran_generator() {
       alert("Input a valid number");
       document.getElementById("content").innerHTML=0;
     }
+    else if ((document.getElementById("text-input").value) >= 100000) {
+      alert("Input limit exceeded !");
+      document.getElementById("text-input").value="";
+      document.getElementById("content").innerHTML=0;
+    }
     else {
       var limit = document.getElementById("text-input").value;
       var result = Math.floor((Math.random() * limit) + 1);
